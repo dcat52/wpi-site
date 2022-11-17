@@ -1,65 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<link rel="stylesheet" href="/~dscatherman/css/navbar-sidebar.css">
-<link rel="stylesheet" href="/~dscatherman/css/main.css">
-
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 <head>
-  <title>D. Catherman - About</title>
-<!--   <base href="http://127.0.0.1:5500/"> -->
-  <base id="base" href="http://users.wpi.edu/" target="http://www.users.wpi.edu/">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Davis S. Catherman - Portfolio</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" property="og:viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" property="og:author" content="Davis Catherman">
+
+    <meta name="robots" property="og:robots" content="index, follow">
+    <meta name="google-site-verification" content="qCMSrAIfzL1_kg8yqDkftPPL_871kcAyo4-oejvsarE" />
+
+    <meta name="type" property="og:type" content="website">
+    <meta name="url" property="og:url" content="users.wpi.edu/~dscatherman">
+    <meta name="title" property="og:title" content="Davis Catherman – Portfolio">
+    <meta name="description" property="og:description" content="Portfolio of Davis Catherman, complete with Curriculum Vitae, Projects, Medium articles, and interests.">
+    <meta name="image" property="og:image" content="https://users.wpi.edu/~dscatherman/davis.jpeg">
+    <meta name="keywords" property="og:keywords" content="Curriculum Vitae, CV, Resume, Portfolio, Medium, Articles, Research, Apptainer, High Performance Computer, HPC">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="resume.min.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQJC326Y3X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-MQJC326Y3X');
+    </script>
+
 </head>
 
-<body>
+<body id="#">
 
-  <div class="container-fluid">
-    <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
 
-      <div id="nav-placeholder">
-      </div>
-      <script>
-        $.get("/~dscatherman/html/navbar.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-          });
-      </script>
+        <a class="navbar-brand js-scroll-trigger" href="#">
+            <ul class="list-unstyled">
 
-      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-1">
+                <li class="navname">
+                    Davis Catherman
+                </li>
 
-        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-left pt-3 mb-3 border-bottom">
-          <h2 class="wpired">Davis Catherman</h2>
+                <li>
+                    <span class="d-none d-lg-block ">
+                        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="davis.jpeg" alt=" ">
+                    </span>
+                </li>
+            </ul>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse " data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#CV">Curriculum Vitae</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link js-scroll-trigger" href="#Medium">Medium Articles</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link js-scroll-trigger" href="#Keys">Public Keys</a>
+                </li>
+                <!-- <li class="nav-item ">
+                    <a class="nav-link js-scroll-trigger" href="#Projects">Projects</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+
+    <section class="resume-section" id="CV">
+        <h3 class="page-title" id="CV">#!/bin/Curriculum Vitae</h3>
+        <div class="h-divider"></div>
+        <div class="row d-lg-block">
+            <div class="col-12 col-lg-6 cardUnit float-left">
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-header ">
+
+                        <!-- Title -->
+                        <h4 class="card-header-title ">
+                            Objective
+                        </h4>
+                    </div>
+                    <div class="card-body ">
+                        Perform cutting edge research in robotics while continuously growing my hands-on experience
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 cardUnit float-right">
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-header">
+                        <!-- Title -->
+                        <h4 class="card-header-title">
+                            Education
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li>
+                                Worcester Polytechnic Institute (WPI)
+                                <span style="float:right;">
+                                    May 2023
+                                </span>
+                                <br> &emsp; Doctor of Philosophy in Robotics Engineering, 4.00/4.00
+                            </li>
+                            <li>
+                                Worcester Polytechnic Institute (WPI)
+                                <span style="float:right;">
+                                    December 2019
+                                </span>
+                                <br> &emsp; Master of Science in Robotics Engineering, 3.88/4.00
+                            </li>
+                            <li>
+                                Christopher Newport University (CNU)
+                                <span style="float:right;">
+                                    May 2018
+                                </span>
+                                <br> &emsp; Bachelor of Science in Computer Engineering, 3.53/4.00, Cum Laude
+                                <br> &emsp; Minor in Leadership Studies
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 cardUnit float-left">
+                <!-- Card -->
+                <div class="card ">
+                    <div class="card-header ">
+                        <!-- Title -->
+                        <h4 class="card-header-title ">
+                            Publications
+                        </h4>
+                    </div>
+                    <div class="card-body ">
+                        <div class="row align-items-center ">
+                            <div class="col ">
+                                <ul class="list-unstyled ">
+                                    <li>
+                                        Catherman, Neville, Bloom, & White, "Reinforcement Learning Adversarial Swarm Dynamics," <i>Proceedings of IEEE SoutheastCon</i>, March 2020, Raleigh, NC, USA.
+                                        <br><a href="https://ieeexplore.ieee.org/document/9249674" target="_blank">ieeexplore.ieee.org</a>
+                                    </li>
+                                    <li>
+                                        Catherman, Kaminski & Jagetia, "Atlas Humanoid Robot Control with Flexible Finite State Machines for Playing Soccer," <i>Proceedings of IEEE SoutheastCon</i>, March 2020, Raleigh, NC, USA.
+                                        <br><a href="https://ieeexplore.ieee.org/document/9368291" target="_blank">ieeexplore.ieee.org</a>
+                                    </li>
+                                    <li>
+                                        White & Catherman, "Mobile Robot Controller Performance over Unexpected Terrain Disturbances," <i>Proceedings of IEEE SoutheastCon</i>, April 2019, Huntsville, AL, USA.
+                                        <br><a href="https://ieeexplore.ieee.org/document/9020498" target="_blank">ieeexplore.ieee.org</a>
+                                    </li>
+                                    <li>
+                                        Conner, Catherman, Enders, Gates, & Gu, "Flexible Manipulation: Finite State Machine-based Collaborative Manipulation," <i>Proceedings of IEEE SoutheastCon</i>, April 2018, St. Petersburg, FL, USA.
+                                        <br><a href="https://ieeexplore.ieee.org/document/8478933" target="_blank">ieeexplore.ieee.org</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 cardUnit float-right">
+                <!-- Card -->
+                <div class="card ">
+                    <div class="card-header ">
+                        <!-- Title -->
+                        <h4 class="card-header-title ">
+                            Internships
+                        </h4>
+                    </div>
+                    <div class="card-body ">
+                        <ul class="list-unstyled ">
+                            <li>
+                                Waymo
+                                <span style="float:right;">
+                                    May 2022 - August 2022
+                                </span>
+                                <br> &emsp; Roboticist Intern, Behavior Planner, Prediction, & Router
+                            </li>
+                            <li>
+                                Waymo
+                                <span style="float:right;">
+                                    May 2021 - August 2021
+                                </span>
+                                <br> &emsp; Roboticist Intern, Behavior Planner, Prediction, & Controls
+                            </li>
+                            <li>
+                                Kuva Systems
+                                <span style="float:right;">
+                                    August 2019 - May 2021
+                                </span>
+                            </li>
+                            <li>
+                                SIC Drone
+                                <span style="float:right;">
+                                    January 2019 - June 2019
+                                </span>
+                            </li>
+                            <li>
+                                Cannon Virginia Inc.
+                                <span style="float:right;">
+                                    January 2018 - June 2018
+                                </span>
+                            </li>
+                            <li>
+                                NASA
+                                <span style="float:right;">
+                                    
+                                    August 2016 - December 2017
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 cardUnit float-left">
+                <!-- Card -->
+                <div class="card ">
+                    <div class="card-header ">
+
+                        <!-- Title -->
+                        <h4 class="card-header-title ">
+                            Projects
+                        </h4>
+
+                    </div>
+                    <div class="card-body ">
+
+                        <ul class="list-unstyled ">
+                            <li>
+                                # Pardon my comments, this site is a work in progress!
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 cardUnit float-left">
+                <!-- Card -->
+                <div class="card ">
+                    <div class="card-header ">
+                        <!-- Title -->
+                        <h4 class="card-header-title ">
+                            PDF
+                        </h4>
+                    </div>
+                    <div class="card-body ">
+                        <ul class="list-unstyled ">
+                            <li>
+                                <a href="Catherman_Resume.pdf" target="_blank">Catherman_Resume.pdf</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="resume-section" id="Medium">
+        <h3 class="page-title">#!/bin/Medium Articles</h3>
+        <div class="h-divider"></div>
+
+        <div class="col-12 col-lg-6 cardUnit float-left">
+            <!-- Card -->
+            <div class="card ">
+                <div class="card-header ">
+                    <!-- Title -->
+                    <h4 class="card-header-title ">
+                        Profile
+                    </h4>
+                </div>
+                <div class="card-body ">
+                    For all of my articles, checkout out my profile and give me a follow!
+                    <br> <a href="https://medium.com/@dcat52">medium.com/@dcat52</a>
+                </div>
+            </div>
         </div>
 
-        I do stuff.
-        yes. no.
-        
-      </main>
-    </div>
-  </div>
+        <div class="col-12 col-lg-6 cardUnit float-left">
+            <!-- Card -->
+            <div class="card ">
+                <div class="card-header ">
+                    <!-- Title -->
+                    <h4 class="card-header-title ">
+                        Topic: Apptainer
+                    </h4>
+                </div>
+                <div class="card-body ">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+                    How to use Singularity or Apptainer on your HPC System
+                    <br><a href="https://medium.com/@dcat52/how-to-use-singularity-or-apptainer-on-your-hpc-system-21093970f86f?source=friends_link&sk=ff940f8f69579765287263380c927c9b">medium.com/@dcat52/21093970f86f</a>
 
-  <script src="/~dscatherman/js/navbar-active.js"></script>
+                    <br>More Ways to Run Apptainer Containers
+                    <br><a href="https://medium.com/@dcat52/more-ways-to-run-apptainer-containers-d6fc688c3f1a?source=friends_link&sk=8c807e16c2184eaed0c1ca5c1a9105b2">medium.com/@dcat52/d6fc688c3f1a</a>
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    
+                    <br>Making your first Apptainer container
+                    <br><a href="https://medium.com/@dcat52/making-your-first-container-81b832d82a6f?source=friends_link&sk=04ab3e68668214cce12af821f9921af9">medium.com/@dcat52/81b832d82a6f</a>
+
+                    <br>Apptainer v1.0.0 Officially Released
+                    <br><a href="https://medium.com/@dcat52/apptainer-v1-0-0-release-1e30277153f7?source=friends_link&sk=bd7fd72beb5f5d6d1c31eb510a5ec347">medium.com/@dcat52/1e30277153f7</a>
+
+                    <br>Why you should use Apptainer
+                    <br><a href="https://medium.com/@dcat52/why-you-should-use-apptainer-21ef1fe7e0bb?source=friends_link&sk=021454579f46c8cf2e0fc7347695d059">medium.com/@dcat52/21ef1fe7e0bb</a>
+
+                    <br>Setting up Apptainer to Make Container Environments
+                    <br><a href="https://medium.com/@dcat52/setting-up-apptainer-to-make-container-environments-8a6c5fd3cd06?source=friends_link&sk=212ff6b1006340d71eb8a88d501deeea">medium.com/@dcat52/8a6c5fd3cd06</a>
+
+                    <br>VS Code Intellisense Inside an Apptainer Container
+                    <br><a href="https://medium.com/@dcat52/vs-code-intellisense-inside-an-apptainer-container-2526380a4673?source=friends_link&sk=985e872a2f75ab8b05f3b8b44ebcf8e0">medium.com/@dcat52/2526380a4673</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-lg-block">
+        </div>
+    </section>
+
+    <section class="resume-section" id="Keys">
+        <h3 class="page-title">#!/bin/Public Keys</h3>
+        <div class="h-divider"></div>
+
+        <div class="col-12 col-lg-6 cardUnit float-left">
+            <!-- Card -->
+            <div class="card ">
+                <div class="card-header ">
+                    <!-- Title -->
+                    <h4 class="card-header-title ">
+                        Apptainer Signing Keys
+                    </h4>
+                </div>
+                <div class="card-body ">
+                    TODO
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-lg-block">
+        </div>
+    </section>
+
+    <!-- <section class="resume-section" id="Projects">
+        <h3 class="page-title">#!/bin/Projects</h3>
+
+        <div class="h-divider"></div>
+
+
+        <div class="row d-lg-block">
+        </div>
+    </section> -->
+
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+
+    <!-- <script src="/~dscatherman/js/navbar-active.js "></script> -->
+
+    <!-- Custom scripts for this template -->
+    <script src="resume.min.js "></script>
 
 </body>
 
 </html>
-
